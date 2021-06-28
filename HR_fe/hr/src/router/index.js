@@ -1,10 +1,28 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Khamza from '../views/Khamza'
+import Izzat from '../views/Izzat'
+import Sardor from '../views/Sardor'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/khamza',
+    name: Khamza,
+    component: Khamza
+  },
+  {
+    path: '/izzat',
+    name: Izzat,
+    component: Izzat
+  },
+  {
+    path: '/sardor',
+    name: Sardor,
+    component: Sardor
+  },
   {
     path: '/',
     name: 'Home',
